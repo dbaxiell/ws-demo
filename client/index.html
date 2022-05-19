@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="wsclient.js" defer></script>
+    <title>WS demo</title>
+  </head>
+  <body>
+    <h1>WS demo</h1>
+    <div>
+      <label for="address">WebSocket service address: </label>
+      <input type="text" id="address" name="address">
+      <button onclick="connect();">Connect</button>
+    </div>
+    <div id="status">Connection status: <span id="statusvalue">DISCONNECTED</span></div>
+    Items on reader:
+    <ul id="itemlist"></ul>
+  </body>
+</html>
